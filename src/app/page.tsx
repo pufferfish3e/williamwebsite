@@ -118,7 +118,7 @@ export default function Home() {
                             opacity: 1,
                             transform: "translateY(0px)",
                         }}
-                        transition={{ duration: 1 }}
+                        transition={{ duration: 1, delay: 0.2 }}
                         className="mt-20 mb-40 text-2xl leading-loose text-gray-400 max-w-[800px] mx-auto"
                     >
                         {HomepageData.HomepageData.description ||
@@ -173,7 +173,7 @@ export default function Home() {
                         >
                             {HomepageData.ProjectDescriptions.scb}
                         </motion.h1>
-                        <Link href={"/"}>
+                        <Link href={"/standardchartered"}>
                         <motion.button
                             initial={{
                                 opacity: 0,
@@ -420,7 +420,7 @@ export default function Home() {
                             opacity: 1,
                             transform: "translateY(0px)",
                         }}
-                        transition={{ duration: 1 }}
+                        transition={{ duration: 1, delay: 0.2 }}
                         className="mt-10 mb-20 text-2xl leading-loose text-gray-400 max-w-[800px] mx-auto"
                     >
                         {HomepageData.SectionData1.description ||
@@ -523,7 +523,7 @@ export default function Home() {
                             opacity: 1,
                             transform: "translateY(0px)",
                         }}
-                        transition={{ duration: 1 }}
+                        transition={{ duration: 1, delay: 0.2 }}
                         className="mt-10 mb-30 text-2xl leading-loose text-gray-400 max-w-[800px] mx-auto"
                     >
                         {HomepageData.SectionData2.description ||
