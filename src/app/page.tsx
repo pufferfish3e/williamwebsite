@@ -235,7 +235,7 @@ export default function Home() {
                             >
                                 {HomepageData.ProjectDescriptions.dbs}
                             </motion.h1>
-                            <Link href={"/"}>
+                            <Link href={"/dbs"}>
                             <motion.button
                                 initial={{
                                     opacity: 0,
@@ -296,7 +296,7 @@ export default function Home() {
                             >
                                 {HomepageData.ProjectDescriptions.uob}
                             </motion.h1>
-                            <Link href={"/"}>
+                            <Link href={"/uob"}>
                             <motion.button
                                 initial={{
                                     opacity: 0,
