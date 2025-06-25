@@ -139,7 +139,7 @@ export default function Home() {
                     <div className="absolute w-screen h-50 bg-gradient-to-b from-transparent from 60% to-black" />
                 </motion.div>
             </section>
-            <section className="min-h-screen flex items-center justify-center p-4 w-screen flex-col">
+            <section className="min-h-screen flex items-center justify-center p-4 w-screen flex-col relative">
                 <motion.div
                     initial={{ opacity: 0, transform: "translateY(70px)" }}
                     whileInView={{ opacity: 1, transform: "translateY(0px)" }}
@@ -148,11 +148,11 @@ export default function Home() {
                     className="w-screen justify-center items-center flex flex-col relative group"
                     style={{ aspectRatio: "1680/880" }}
                 >
-                    <div className="absolute bottom-0 w-[90vw] h-[70vh] md:h-[65vh] z-40 flex flex-col justify-center items-center">
+                    <div className="absolute bottom-0 w-full h-full z-40 flex flex-col justify-center items-center">
                         <motion.div
-                            initial={{ opacity: 0 }}
+                            initial={{ opacity: 0}}
                             variants={{
-                                hover: { opacity: 1 },
+                                hover: { opacity: 1},
                             }}
                             transition={{ duration: 0.3 }}
                             className="absolute inset-0 bg-black/80"
@@ -357,7 +357,7 @@ export default function Home() {
                             >
                                 {HomepageData.ProjectDescriptions.ocb}
                             </motion.h1>
-                            <Link href={"/"}>
+                            <Link href={"/ocb"}>
                             <motion.button
                                 initial={{
                                     opacity: 0,
